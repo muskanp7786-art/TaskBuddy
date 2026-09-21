@@ -1,16 +1,20 @@
-# React + Vite
+# TaskBuddy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskBuddy is a simple task management application developed using React. It helps users organize their daily tasks by adding, editing, deleting, and tracking them. It also provides a progress indicator to show the current completion status.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Add Tasks:** Create and add new tasks to the task list.
+- **Edit Tasks:** Modify the details of an existing task.
+- **Delete Tasks:** Remove unwanted tasks from the list.
+- **Clear All Tasks:** Delete all added tasks with one click.
+- **Progress Tracker:** Displays the progress of completed and pending tasks.
 
-## React Compiler
+## How to Use
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Enter the required task details.
+2. Click **Add Task** to create a new task.
+3. Use the edit option to modify a task.
+4. Use the delete option to remove a task.
+5. Click **Clear All Tasks** to remove all tasks.
+6. Check the progress tracker to see task completion progress.
